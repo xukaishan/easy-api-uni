@@ -8,17 +8,15 @@ export default defineConfig({
         target: 'es2015',
         lib: {
             entry: resolve(__dirname, '../packages/index.js'),
-            formats: ['es', 'cjs', 'umd', 'iife'],
-            name: 'easyapi',
+            name: 'easyapiuni',
         },
         terserOptions: {
 
         },
         rollupOptions: {
-            external: ['axios', 'qs'],
+            external: ['@uni-helper/uni-network', 'qs'],
             output: {
                 globals: {
-                    axios: 'axios',
                     qs: 'Qs',
                 },
             },

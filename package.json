@@ -1,9 +1,9 @@
 {
-  "name": "@kscommon/easy-api",
+  "name": "@kscommon/easy-api-uni",
   "version": "1.0.4",
   "type": "module",
-  "main": "./dist/easy-api.umd.cjs",
-  "module": "./dist/easy-api.js",
+  "main": "./dist/easy-api-uni.umd.cjs",
+  "module": "./dist/easy-api-uni.js",
   "description": "Wrapper for Axios that allows to easily requests",
   "scripts": {
     "build": "vite build --config ./build/build.js"
@@ -13,8 +13,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/easy-api.js",
-      "require": "./dist/easy-api.umd.cjs"
+      "import": "./dist/easy-api-uni.js",
+      "require": "./dist/easy-api-uni.umd.cjs"
     }
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xukaishan/easy-api.git"
+    "url": "git+https://github.com/xukaishan/easy-api-uni.git"
   },
   "keywords": [
     "Axios",
@@ -33,9 +33,9 @@
   "author": "littlekai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xukaishan/easy-api/issues"
+    "url": "https://github.com/xukaishan/easy-api-uni/issues"
   },
-  "homepage": "https://github.com/xukaishan/easy-api#readme",
+  "homepage": "https://github.com/xukaishan/easy-api-uni#readme",
   "dependencies": {
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
